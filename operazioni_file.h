@@ -12,7 +12,7 @@
 BOOL separatore_f(char carattere);
 void lettura_parola();
 void marco();
-
+void domanda();
 
 
 
