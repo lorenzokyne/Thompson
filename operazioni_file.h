@@ -12,6 +12,7 @@
 BOOL separatore_f(char carattere);
 void lettura_parola();
 int Lorenzo(int a,char c);
+void domanda();
 
 
 
