@@ -13,7 +13,10 @@ BOOL separatore_f(char carattere){
 	return bool;
 }
 
-
+void funzionemirko(codice c){
+	c.valore=0;
+	c.lettra='A';
+}
 
 void lettura_parola()
 {
