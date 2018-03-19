@@ -11,6 +11,7 @@
 
 BOOL separatore_f(char carattere);
 void lettura_parola();
+int stampa(int ); 
 
 typedef struct{
 	int valore;

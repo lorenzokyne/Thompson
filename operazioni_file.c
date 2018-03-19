@@ -82,6 +82,19 @@ int Lorenzo(int a,char c){
 	return 0;
 }
 
+
+
+
+
+int stampa(int ) {     // definizione funzione prova
+	printf("le parole sono :");
+}
+
+
+
+
+
+
 //fernando 
    void domanda(){
      char esito
@@ -91,3 +104,4 @@ int Lorenzo(int a,char c){
       printf("bravissimo");
      }
    }
+
