@@ -11,8 +11,10 @@
 
 BOOL separatore_f(char carattere);
 void lettura_parola();
+int stampa(int ); 
 void marco();
 void domanda();
+
 
 
 
