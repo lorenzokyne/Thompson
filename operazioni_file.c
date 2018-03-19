@@ -60,5 +60,17 @@ else{
  printf("\n");
 fclose(matteo);
 }
+void marco()
+{
+	int i;
+	i=10;
+	if (i=11){
+		printf ("Il valore non è corretto"); 
+	}
+	else if (i=10) {
+		printf ("Il valore è corretto");
+	}	
+	
+}
 
 
