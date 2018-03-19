@@ -62,3 +62,14 @@ fclose(matteo);
 }
 
 
+
+
+
+int stampa(int ) {     // definizione funzione prova
+	printf("le parole sono :");
+}
+
+
+
+
+
