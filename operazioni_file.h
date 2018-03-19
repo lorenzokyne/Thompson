@@ -11,11 +11,16 @@
 
 BOOL separatore_f(char carattere);
 void lettura_parola();
+
 typedef struct{
 	int valore;
 	char lettera;
 }codice;
 void proceduramirko(codice); //procedura che inizializza la struttura codice con 0 e A
+
+void marco();
+void domanda();
+
 
 
 
