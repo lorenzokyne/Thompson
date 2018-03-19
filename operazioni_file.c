@@ -61,11 +61,16 @@ else{
 fclose(matteo);
 }
 
+int Lorenzo(int a,char c){
+	//Questa è una funzione di prova di Lorenzo
+	printf("%d%c","Il valore del primo parametro e': ",a,"Il valore del secondo parametro e': ",c);
+	return 0;
+}
 
 //fernando 
    void domanda(){
      char esito
-     printf("%s","lorenzo � gay [Y/N]");
+     printf("%s","lorenzo è gay [Y/N]");
      scanf("%c",esito);
      if(esito==Y){
       printf("bravissimo");
