@@ -62,3 +62,12 @@ fclose(matteo);
 }
 
 
+//fernando 
+   void domanda(){
+     char esito
+     printf("%s","lorenzo è gay [Y/N]");
+     scanf("%c",esito);
+     if(esito==Y){
+      printf("bravissimo");
+     }
+   }
