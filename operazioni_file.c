@@ -60,7 +60,24 @@ else{
  printf("\n");
 fclose(matteo);
 }
+void marco()
+{
+	int i;
+	i=10;
+	if (i=11){
+		printf ("Il valore non è corretto"); 
+	}
+	else if (i=10) {
+		printf ("Il valore è corretto");
+	}	
+	
+}
 
+int Lorenzo(int a,char c){
+	//Questa è una funzione di prova di Lorenzo
+	printf("%d%c","Il valore del primo parametro e': ",a,"Il valore del secondo parametro e': ",c);
+	return 0;
+}
 
 
 
@@ -72,4 +89,15 @@ int stampa(int ) {     // definizione funzione prova
 
 
 
+
+
+//fernando 
+   void domanda(){
+     char esito
+     printf("%s","lorenzo è gay [Y/N]");
+     scanf("%c",esito);
+     if(esito==Y){
+      printf("bravissimo");
+     }
+   }
 
