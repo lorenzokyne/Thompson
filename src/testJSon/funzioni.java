@@ -1,10 +1,6 @@
-package graficaint;
-
-
+package testJSon;
 
 public class funzioni {
-	
-	
 	public void help() {
 		System.out.println("usage [--quit] [--listmember] [--listchannel] [--help]    ");
 		System.out.println("--listmember  visualizza la lista dei membri specificando successivamente il workspace");

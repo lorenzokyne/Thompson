@@ -1,9 +1,9 @@
 package testJSon;
 
 public class Persona{
-	 String id;
-	 String team_id;
-	 String name;
+	private String id;
+	private String team_id;
+	private String name;
 	private boolean deleted;
 	private String color;
 	private String real_name;

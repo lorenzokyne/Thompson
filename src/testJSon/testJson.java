@@ -31,21 +31,6 @@ public class testJson{
 	    } catch (ParseException e) {
 	        e.printStackTrace();
 	    }*/
-		JSONParser parser = new JSONParser();
-		try {  
-			Gson a=new Gson();
-	        Object obj = parser.parse(new FileReader("channels.json"));
-	        JSONArray jsonArray =  (JSONArray) obj;
-	        String temp=jsonArray.toString();
-	        java.lang.reflect.Type listType = new TypeToken<ArrayList<Channel>>() {}.getType();
-	        Channels canali=new Channels(a.fromJson(temp,listType));
-	        canali.listaCanali();
-		} catch (FileNotFoundException e) {
-	        e.printStackTrace();
-	    } catch (IOException e) {
-	        e.printStackTrace();
-	    } catch (ParseException e) {
-	        e.printStackTrace();
-	    }	
+			
 	}
 }
