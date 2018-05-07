@@ -21,40 +21,28 @@ public class staticmain {
 		Scanner tastiera=new Scanner(System.in);
 	do {
 		b=tastiera.nextLine();
-		if(b.equals("--help")){
+		if(b.equals("help")){
 		  m.help();
 		}
-		else if(b.equals("--memberlist")) { //funzione
+		else if(b.equals("memberslist")) { //funzione
 		   System.out.println("\n"+"Inserisci workspace"+" "+"\n");
 		   String path=tastiera.nextLine();
 		       //se troviamo il workspace parte il comando --listmember
-		   	   Members temp=new Members();
-		   	   temp.acquisisci(path);
-		   	   temp.listaMembri();
 		 }
-		else if(b.equals("--channellist")) {
+		else if(b.equals("channelslist")) {
 		    System.out.println("\n"+"Inserisci workspace"+" "+"\n");
 		    String path=tastiera.nextLine(); 
 		   //se troviamo il workspace parte il comando --listchannel
-		    Channels temp=new Channels();
-		    temp.acquisisci(path);
-		    temp.listaCanali();
 		    }
-		else if(b.equals("memberforchannel")){
+		else if(b.equals("membersforchannel")){
 			System.out.println("\n"+"Inserisci workspace"+" "+"\n");
 		    String path=tastiera.nextLine(); 
-		    Channels temp=new Channels();
-		    temp.acquisisci(path);
-		    temp.membriPerChannel(path);
 		}
 		else if(b.equals("channelmembers")) {
 			System.out.println("\n"+"Inserisci workspace"+" "+"\n");
 		    String path=tastiera.nextLine(); 
 		    System.out.println("\n"+"Inserisci Nome canale"+" "+"\n");
 		    String nome=tastiera.nextLine(); 
-		    Channels temp=new Channels();
-		    temp.acquisisci(path);
-		    temp.membridiunchannel(nome, path);
 		}
 		 else if(!b.equals("quit")) {
 		    m.help();
